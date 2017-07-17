@@ -1,0 +1,25 @@
+{
+  "name": "lex-order-coffee-validation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "export AWS_REGION=us-east-1 && jest",
+    "watch": "export AWS_REGION=us-east-1 && jest --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.60.0",
+    "es6-promisify": "^5.0.0",
+    "lodash": "^4.17.4",
+    "uuid": "^3.0.1",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "airportsjs": "^0.2.2"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "jest": "^20.0.4"
+  }
+}
